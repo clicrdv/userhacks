@@ -1,0 +1,34 @@
+{
+  "name": "userhacks",
+  "version": "0.0.1",
+  "description": "Userhack generator for new clicrdv user app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new-hack": "babel index.js -o dist/index.js && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clicrdv/userhacks.git"
+  },
+  "keywords": [
+    "userhack",
+    "user",
+    "app"
+  ],
+  "author": "clement.mondion@clicrdv.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clicrdv/userhacks/issues"
+  },
+  "homepage": "https://github.com/clicrdv/userhacks#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "create-react-app": "^1.5.2",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
